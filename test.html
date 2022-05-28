@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+        <title>test</title>
+        <script>
+            function redirect() {
+                url = "/" + document.getElementById('inp').value + ".html";
+                location.assign(url);
+            }
+
+        </script>
+    </head>
+    <body>
+        <form onsubmit="redirect();return false">
+            <input type="text" id="inp">
+        </form>
+    </body>
+</html>
