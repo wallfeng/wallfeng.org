@@ -23,20 +23,21 @@ img {
 
 p, li {
     font-family:"Helvetica Neue", sans-serif;
+    font-family:"Times New Roman", serif;
     font-weight: 400;
     font-size: 1em;
 }
 
 h1 {
-    font-family:"Source Code Pro","Courier New", Courier, monospace;
     font-family:"Helvetica Neue", sans-serif;
+    font-family:"Times New Roman", serif;
     font-weight: 700;
     font-size: 2em;
 }
 
 h2 {
-    font-family:"Source Code Pro","Courier New", Courier, monospace;
     font-family:"Helvetica Neue", sans-serif;
+    font-family:"Times New Roman", serif;
     font-weight: 900;
     font-size: 1em;
 }
