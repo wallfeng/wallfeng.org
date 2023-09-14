@@ -58,6 +58,12 @@ a:hover {
     text-decoration-line: none;
 }
 
+.caption, .caption a {
+    font-size: 0.7em;
+    text-align: right;
+    color: #999999;
+}
+
 ::selection {
     background: #b3dcff;
 }
