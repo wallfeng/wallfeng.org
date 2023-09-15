@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 body {
-    background-color: #FFFEFA;
+    background-color: #fcf8f0;
+    background-image: url("/clouds-texture.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom;
 }
 
 .pad {
