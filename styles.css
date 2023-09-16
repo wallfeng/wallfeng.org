@@ -1,6 +1,6 @@
 body {
     background-color: #fcf8f0;
-    background-image: url("/clouds-bc.png");
+    /* background-image: url("/clouds-bc.png"); */
     background-size: contain;
     background-repeat: repeat-x;
     background-position: bottom;
