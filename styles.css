@@ -1,9 +1,9 @@
 body {
-    background-color: #fcf8f0;
     background-image: url("/images/clouds-bc.jpg");
     background-size: contain;
     background-repeat: repeat-x;
     background-position: bottom;
+    background-attachment:fixed;
 }
 
 .pad {
