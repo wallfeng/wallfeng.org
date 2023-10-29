@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+
+
 body {
     background-image: url("/images/clouds-bc.jpg");
     background-size: contain;
@@ -32,9 +35,10 @@ p, li {
 }
 
 h1 {
-    font-family:"Helvetica Neue", sans-serif;
+    font-family:"DM Serif Display", "Georgia", serif;
     font-weight: 700;
     font-size: 2em;
+    margin-bottom: -10px;
 }
 
 h2 {
@@ -48,14 +52,12 @@ a {
     color: #000000;
     font-weight: 400;
     text-decoration-line: underline;
-    text-decoration-color:#d7d0ff;
     text-decoration-color:#d8f292;
     text-decoration-thickness: 2px;
     background-color: transparent;
 }
 
 a:hover {
-    background-color: #d7d0ff;
     background-color: #d8f292;
     text-decoration-line: none;
 }
@@ -85,4 +87,8 @@ a:hover {
     width: 20%;
     top: 10%;
     right: 5%;
+}
+
+.img-fixed:hover {
+    opacity: 0;
 }
