@@ -75,10 +75,6 @@ a:hover {
     right: 5%;
 }
 
-.img-fixed:hover {
-    opacity: 0;
-}
-
 .bio {
     margin-right: 10px;
 }
@@ -93,10 +89,6 @@ a:hover {
         width: 100%;
         padding-top: 20px;
     }
-
-    .img-fixed:hover {
-        opacity: 100;
-    };
 
     .bio {
         margin-right: 0px;
