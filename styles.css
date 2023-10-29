@@ -2,11 +2,7 @@
 
 
 body {
-    background-image: url("/images/clouds-bc.jpg");
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-attachment:fixed;
+    background-color: #FDFCEF;
 }
 
 .img-c {
@@ -72,16 +68,6 @@ a:hover {
     background: #b3dcff;
 }
 
-@media (max-width: 640px){
-    .wrapper {
-        padding: 0px 30px;
-    }
-}
-
-.new {
-    background-color: #fcef8a;
-} 
-
 .img-fixed {
     position: fixed;
     width: 20%;
@@ -91,4 +77,24 @@ a:hover {
 
 .img-fixed:hover {
     opacity: 0;
+}
+
+.bio {
+    margin-right: 10px;
+}
+
+@media (max-width: 640px){
+    .wrapper {
+        padding: 0px 30px;
+    }
+
+    .img-fixed {
+        position: static;
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .bio {
+        margin-right: 0px;
+    }
 }
