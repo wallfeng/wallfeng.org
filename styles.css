@@ -94,6 +94,10 @@ a:hover {
         padding-top: 20px;
     }
 
+    .img-fixed:hover {
+        opacity: 100;
+    };
+
     .bio {
         margin-right: 0px;
     }
