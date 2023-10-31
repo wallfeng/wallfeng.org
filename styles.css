@@ -65,7 +65,8 @@ a:hover {
 }
 
 ::selection {
-    background: #b3dcff;
+    background: #FDFCEF;
+    color: #FDFCEF;
 }
 
 .img-fixed {
