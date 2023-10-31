@@ -5,11 +5,6 @@ body {
     background-color: #FDFCEF;
 }
 
-.img-c {
-    display: block;
-    margin: auto;
-}
-
 .wrapper {
     max-width: 640px;
     margin-top: 20px;
@@ -18,11 +13,6 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-  }
 
 p, li {
     font-family:"Helvetica Neue", sans-serif;
@@ -47,7 +37,7 @@ a {
     text-decoration: none;
     color: #000000;
     font-weight: 400;
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-decoration-color:#d8f292;
     text-decoration-thickness: 2px;
     background-color: transparent;
@@ -55,18 +45,13 @@ a {
 
 a:hover {
     background-color: #d8f292;
-    text-decoration-line: none;
-}
-
-.caption, .caption a {
-    font-size: 0.7em;
-    text-align: right;
-    color: #999999;
+    text-decoration: none;
 }
 
 ::selection {
     background: #FDFCEF;
     color: #FDFCEF;
+    text-decoration-color: #FDFCEF;
 }
 
 .img-fixed {
@@ -74,6 +59,7 @@ a:hover {
     width: 20%;
     top: 10%;
     right: 5%;
+    user-select: none;
 }
 
 .bio {
