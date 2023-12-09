@@ -16,23 +16,20 @@
     user-select: none;
 }
 
-p, li {
+p, li, h1, h2 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1em;
 }
 
 h1 {
-    font-family:'Times New Roman', Times, serif;
     font-weight: 700;
     font-size: 2em;
     margin-bottom: -10px;
 }
 
 h2 {
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-size: 1em;
+    font-weight: 700;
 }
 
 a {
