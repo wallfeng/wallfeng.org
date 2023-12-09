@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+
+
+body {
+    background-color: #FDFCEF;
+}
+
+.wrapper {
+    max-width: 640px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+p, li {
+    font-family:"Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+h1 {
+    font-family:"DM Serif Display", "Georgia", serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family:"Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color:#d8f292;
+    text-decoration-thickness: 2px;
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: #d8f292;
+    text-decoration: none;
+}
+
+::selection {
+    background: #FDFCEF;
+    color: #FDFCEF;
+    text-decoration-color: #FDFCEF;
+}
+
+.img-fixed {
+    position: fixed;
+    width: 20%;
+    top: 10%;
+    right: 5%;
+    user-select: none;
+}
+
+.bio {
+    margin-right: 60px;
+}
+
+@media (max-width: 640px){
+    .wrapper {
+        padding: 0px 30px;
+    }
+
+    .img-fixed {
+        position: static;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .bio {
+        margin-right: 0px;
+    }
+}
