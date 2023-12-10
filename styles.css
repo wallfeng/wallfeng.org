@@ -19,7 +19,7 @@
 p, li, h1, h2 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -36,7 +36,7 @@ a {
     color: black;
 }
 
-a:hover, ::selection {
+a:hover {
     background-color: yellow;
     text-decoration: none;
 }
