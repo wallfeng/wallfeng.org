@@ -1,3 +1,7 @@
+body {
+    cursor: url(images/xp.cur), auto;
+}
+
 .wrapper {
     max-width: 640px;
     margin-top: 20px;
@@ -21,6 +25,10 @@ p, li, h1, h2 {
     font-size: 1.2em;
 }
 
+span {
+    cursor: text;
+}
+
 h1 {
     font-weight: 700;
     font-size: 1.8em;
@@ -33,6 +41,7 @@ h2 {
 
 a {
     color: black;
+    cursor: url(images/link.cur), auto;
 }
 
 a:hover {
