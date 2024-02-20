@@ -26,7 +26,7 @@ p, li, h1, h2 {
 }
 
 span {
-    cursor: text;
+    cursor: url(images/text.cur), auto;
 }
 
 h1 {
