@@ -23,6 +23,7 @@ p, li, h1, h2 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.2em;
+    margin: 0px;
 }
 
 span {
@@ -32,11 +33,12 @@ span {
 h1 {
     font-weight: 700;
     font-size: 1.8em;
-    margin-bottom: -10px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-weight: 700;
+    margin: 20px 0px 0px 0px;
 }
 
 a {
