@@ -46,6 +46,26 @@ a {
     cursor: url(images/link.cur), auto;
 }
 
+.hover {
+    text-decoration: underline;
+}
+
+.hover-music:hover, body:has(.hover-music:hover) .music {
+    background-color: #caffaf;
+}
+
+.hover-gender:hover, body:has(.hover-gender:hover) .gender {
+    background-color: #89f9e3;
+}
+
+.hover-tech:hover, body:has(.hover-tech:hover) .tech {
+    background-color: #90e6ff;
+}
+
+.hover-power:hover, body:has(.hover-power:hover) .power {
+    background-color: #c2ccff;
+}
+
 a:hover {
     background-color: yellow;
     text-decoration: none;
