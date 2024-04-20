@@ -50,19 +50,19 @@ a {
     text-decoration: underline;
 }
 
-.hover-music:hover, body:has(.hover-music:hover) .music {
+.hover-m:hover, body:has(.hover-m:hover) .m {
     background-color: #caffaf;
 }
 
-.hover-gender:hover, body:has(.hover-gender:hover) .gender {
+.hover-g:hover, body:has(.hover-g:hover) .g {
     background-color: #89f9e3;
 }
 
-.hover-tech:hover, body:has(.hover-tech:hover) .tech {
+.hover-t:hover, body:has(.hover-t:hover) .t {
     background-color: #90e6ff;
 }
 
-.hover-power:hover, body:has(.hover-power:hover) .power {
+.hover-p:hover, body:has(.hover-p:hover) .p {
     background-color: #c2ccff;
 }
 
