@@ -84,17 +84,7 @@ a.li2 {
         padding: 0px 30px;
     }
 
-    a.li1 {
-        display: none;
-    }
-
-    a.li2 {
-        display: inline;
-    }
-
-    .img-fixed {
-        position: static;
+    img {
         width: 100%;
-        padding-top: 20px;
     }
 }
