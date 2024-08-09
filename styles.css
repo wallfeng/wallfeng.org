@@ -9,8 +9,13 @@ body {
     height: 90vh;
 }
 
+.pad {
+    height: 20px;
+    display: inline-block;
+}
+
 .bio {
-    padding-top: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
 img {
@@ -22,16 +27,13 @@ p, li, h1, h2 {
     font-weight: 400;
     font-size: 1.2em;
     margin: 0px;
-}
-
-span {
     cursor: url(images/text.cur), auto;
 }
 
 h1 {
     font-weight: 700;
     font-size: 1.8em;
-    margin-bottom: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
 h2 {
@@ -67,14 +69,6 @@ a {
 a:hover {
     background-color: yellow;
     text-decoration: none;
-}
-
-a.li1 {
-    display: inline;
-}
-
-a.li2 {
-    display: none;
 }
 
 @media (max-width: 640px){
